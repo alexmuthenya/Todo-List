@@ -28,9 +28,11 @@ function App() {
     }}
     >
       <Paper elevation={3} sx={{
-        width: "450px",
+        width: "90%",
+        maxWidth: "450px",
         textAlign: "center",
-        p: 3
+        p: 3,
+        m: 2
       }}>
         <Header />
         <TodoAdd addTask ={addTask} />
